@@ -6,7 +6,7 @@ module.exports = {
     sepolia: {
       provider: () => new HDWalletProvider(
         process.env.MNEMONIC,
-        `https://eth-sepolia.g.alchemy.com/v2/w6yKHyApkITPiHlHqKeRjXuBhOID2pj6`
+        `https://eth-sepolia.g.alchemy.com/v2/...`
       ),
       network_id: 11155111,       // Sepolia's network id
       gas: 5500000,               // Gas limit
